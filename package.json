@@ -1,0 +1,19 @@
+{
+  "name": "create-static-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yodfz/create-static-blog.git"
+  },
+  "author": "zhaoyifeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yodfz/create-static-blog/issues"
+  },
+  "homepage": "https://github.com/yodfz/create-static-blog#readme"
+}
