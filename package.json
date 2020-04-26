@@ -2,7 +2,6 @@
   "name": "create-static-blog",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/yodfz/create-static-blog/issues"
   },
-  "homepage": "https://github.com/yodfz/create-static-blog#readme"
+  "bin": {
+    "blog-cli": "src/index.js"
+  },
+  "homepage": "https://github.com/yodfz/create-static-blog#readme",
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "marked": "^1.0.0",
+    "ora": "^4.0.4"
+  }
 }
