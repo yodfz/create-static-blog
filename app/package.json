@@ -11,8 +11,14 @@
   "author": "zhaoyifeng",
   "license": "ISC",
   "dependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "isomorphic-fetch": "^2.2.1",
     "next": "^9.3.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
   }
 }

@@ -18,6 +18,14 @@ spinner.succeed('复制完成')
 
 spinner.info('准备处理markdown文档')
 const allMarkdown = markdown()
+fs.writeFileSync(
+  path.join(process.cwd(), './dist/data.js'),
+  `export default ${JSON.stringify(allMarkdown)}`
+)
+fs.writeFileSync(
+  path.join(process.cwd(), './dist/list.js'),
+  `export default ${JSON.stringify(allMarkdown)}`
+)
 spinner.succeed('遍历文档，并且生成html文件')
 
 spinner.succeed('完成编译')

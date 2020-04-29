@@ -1,0 +1,38 @@
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #efefef;
+  background-color: #fff;
+  box-shadow: 0 1px 10px rgba(26, 26, 26, 0.1);
+  z-index: 100;
+}
+.block {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  list-style: none;
+  li {
+    border-top: 1px solid #fff;
+    width: 120px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+  }
+  li:hover,
+  .active {
+    border-top: 1px solid #db4d52;
+    border-bottom: 5px solid #db4d52;
+    color: #db4d52;
+    background-color: rgba(240, 240, 240, 0.1);
+    transition-duration: 0.3s;
+  }
+}

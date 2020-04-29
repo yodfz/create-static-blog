@@ -23,7 +23,7 @@ const createDirectory = function (path) {
  * @param {*} targetDir
  */
 const copy = function (sourceDir, targetDir) {
-  const files = fs.readdirSync(sourceDir)
+  const files = fs.readdirSync(makefullPath(sourceDir))
   files.map(file => {
     const inputFile = `${sourceDir}/${file}`
     const outputFile = `${targetDir}/${file}`
