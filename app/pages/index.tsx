@@ -11,10 +11,7 @@ export default class Index extends React.PureComponent {
     const articleData = await fetch(
       'https://www.yodfz.com/api/v1/article'
     ).then(res => res.json())
-    const photoData = await fetch(
-      'https://www.yodfz.com/api/v1/photo'
-    ).then(res => res.json())
-    return { article: articleData, photo: photoData }
+    return { article: articleData }
   }
 
   render() {
