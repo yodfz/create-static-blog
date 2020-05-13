@@ -21,6 +21,7 @@ export default class Index extends React.PureComponent {
           <title>一只写代码的熊猫 Blog</title>
         </NextHead>
         <Head index={0} />
+        
       </>
     )
   }

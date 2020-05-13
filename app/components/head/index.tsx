@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './index.less'
 
-const Head = props => {
+const Head = (props: { index: number }) => {
   console.log('props', props)
   return (
     <div className={styles.head}>
