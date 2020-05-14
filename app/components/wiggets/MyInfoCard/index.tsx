@@ -1,4 +1,4 @@
-import styles from './MyInfo.less'
+import styles from './index.less'
 export default () => (
   <div className={styles.MyInfoCard}>
     <section>

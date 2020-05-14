@@ -3,7 +3,10 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
-    "lib": ["dom", "es2017"],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
@@ -14,9 +17,16 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": false,
-    "target": "esnext"
+    "target": "esnext",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
-  "include": ["./", ".d.ts"],
+  "include": [
+    "./",
+    ".d.ts"
+  ],
   "exclude": [
     "node_modules",
     "build",
