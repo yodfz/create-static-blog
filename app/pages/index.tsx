@@ -4,6 +4,7 @@ import Head from '../components/head'
 import MyInfoCard from '../components/wiggets/MyInfoCard'
 import Layout, { LayoutCol } from '../components/layout'
 import ListItem from '../components/listItem'
+import FriendLink from '../components/friendLink'
 import Footer from '../components/footer'
 import styles from './index.less'
 
@@ -32,14 +33,7 @@ export default class Index extends React.PureComponent {
           </LayoutCol>
           <LayoutCol className={styles.layoutRight}>
             <MyInfoCard />
-            <div>1</div>
-            <div>2</div>
-            <div>=3</div>
-            <div>4</div>
-            <div>1</div>
-            <div>1</div>
-            <div>1</div>
-            <div>1</div>
+            <FriendLink />
           </LayoutCol>
         </Layout>
         <Footer />

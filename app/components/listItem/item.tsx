@@ -2,9 +2,15 @@ import React from 'react'
 import styles from './index.less'
 import Tag from '../tag'
 
-const Item: React.FC<{ data: any }> = props => {
+const Item: React.FC<{
+  data: {
+    title: string
+    createdAt: string
+    viewCount: number
+    content: string
+  }
+}> = props => {
   const { data } = props
-  console.log('data', data)
   return (
     <div className={styles.item}>
       <h2>{data.title}</h2>

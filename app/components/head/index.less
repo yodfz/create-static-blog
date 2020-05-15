@@ -8,7 +8,7 @@ body {
   left: 0;
   right: 0;
   height: 80px;
-  line-height: 75px;
+  line-height: 74px;
   border-bottom: 1px solid #efefef;
   background-color: #fff;
   // border-top: 1px solid rgba(26, 26, 26, 0.1);
@@ -40,30 +40,39 @@ body {
     -webkit-user-select: none;
     border-color: rgba(255, 255, 255, 0);
   }
+  a {
+    font-size: 16px;
+    color: #333;
+    font-weight: 200;
+  }
   li:hover,
   .active {
     position: relative;
     // border-top: 1px solid #db4d52;
     border-bottom: 5px solid #db4d52;
-    color: #db4d52;
+    color: #db4d52 !important;
+    a {
+      font-weight: 400;
+      color: #db4d52 !important;
+    }
     // background-color: rgba(219, 77, 82, 0.05);
     // transition-duration: 0.3s;
     &::before {
-      content: ' ';
-      display: block;
-      position: absolute;
-      left: calc(50% - 7px);
-      top: 60px;
-      width: 0;
-      height: 0;
-      border-width: 8px;
-      border-left-width: 7px;
-      border-right-width: 7px;
-      border-style: solid;
-      border-left-color: transparent;
-      border-right-color: transparent;
-      border-top-color: transparent;
-      border-bottom-color: #db4d52;
+      // content: ' ';
+      // display: block;
+      // position: absolute;
+      // left: calc(50% - 7px);
+      // top: 60px;
+      // width: 0;
+      // height: 0;
+      // border-width: 8px;
+      // border-left-width: 7px;
+      // border-right-width: 7px;
+      // border-style: solid;
+      // border-left-color: transparent;
+      // border-right-color: transparent;
+      // border-top-color: transparent;
+      // border-bottom-color: #db4d52;
     }
   }
 }

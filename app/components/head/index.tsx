@@ -20,10 +20,19 @@ const Head = (props: { index: number }) => {
             </Link>
           </li>
           <li className={props.index === 1 ? styles.active : null}>
-            <a href="/article">文章</a>
+            <Link href="/article">
+              <a>文章</a>
+            </Link>
           </li>
           <li className={props.index === 2 ? styles.active : null}>
-            <a href="/about">关于我</a>
+            <Link href="/about">
+              <a>关于我</a>
+            </Link>
+          </li>
+          <li className={props.index === 3 ? styles.active : null}>
+            <Link href="/donate">
+              <a>捐赠</a>
+            </Link>
           </li>
         </ul>
       </div>
